@@ -19,7 +19,7 @@ export const TableItem = ({item}: Props) => {
       <C.TableColumn>{item.title}</C.TableColumn>
       <C.TableColumn>
         <C.Value color={categories[item.category].expense ? 'red' : 'green'}>
-          R$ {item.value}
+          {item.value.toLocaleString("pt-BR", { minimumFractionDigits: 2 , style: 'currency', currency: 'BRL' })}
         </C.Value>
       </C.TableColumn>
     </C.TableLine>

@@ -10,7 +10,7 @@ export const ResumeItem = ({title, value, color}: Props) => {
   return (
     <C.Container>
       <C.Title>{title}</C.Title>
-      <C.Info color={color}>R$ {value}</C.Info>
+      <C.Info color={color}>{value.toLocaleString("pt-BR", { minimumFractionDigits: 2 , style: 'currency', currency: 'BRL' })}</C.Info>
     </C.Container>
   )
 }
