@@ -10,7 +10,7 @@ Esse desafio do professor Bonieky Lacerda consiste em contruir 5 aplicações co
 
 ## Tecnologias que foram usadas
 
-Para desenvolver esse primeiro projeto, optamos por usar as seguintes tecnologias:
+Para desenvolver esse segundo projeto, optamos por usar as seguintes tecnologias:
 
 * [ReactJs](https://pt-br.reactjs.org/)
 * [TypeScript](https://www.typescriptlang.org/)
